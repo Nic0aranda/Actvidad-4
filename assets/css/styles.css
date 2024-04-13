@@ -7,7 +7,7 @@ body{
 }
 
 .navbar{
-    color: white;
+    color: gray;
     background-color: indianred;
     padding: 10%;
     display: flex;
@@ -51,4 +51,23 @@ nav ul li{
 .carousel-item{
     width: 20rem;
     height: 30rem;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+
+.mona_lisa{
+    height: 30rem;
+    width: 80rem;
+    margin: 3rem;
+}
+
+.texto_mona_lisa{
+    text-align: center;
+}
+
+.precio{
+    background-color: aqua;
 }
