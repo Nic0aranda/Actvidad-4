@@ -1,0 +1,38 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+.navbar{
+    color: white;
+    background-color: indianred;
+    padding: 10%;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    list-style:none;
+    margin: 0px 10px;
+}
+
+.buscador{
+    display: flex;
+    padding: 0rem 5rem ;
+}
+
+.carousel{
+    display: block;
+    align-items: center;
+    margin: 7rem 5rem;
+}
