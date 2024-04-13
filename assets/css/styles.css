@@ -31,8 +31,19 @@ nav ul li{
     padding: 0rem 5rem ;
 }
 
+.titulo-carrusel{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
 .carousel{
     display: block;
     align-items: center;
-    margin: 7rem 5rem;
+    margin: 2rem 5rem;
+}
+
+.carousel-item{
+    width: 20rem;
+    height: 30rem;
 }
