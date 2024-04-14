@@ -6,11 +6,30 @@ body{
     background-color: cornsilk;
 }
 
+@media (max-width: 576px) {
+    .lista-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+    .titulo-carrusel {
+        text-align: center;
+    }
+}
+
 .navbar{
     color: gray;
-    background-color: indianred;
     padding: 10%;
     display: flex;
+    flex-direction: row;
+}
+
+.container_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 nav ul {
@@ -29,6 +48,12 @@ nav ul li{
 .logo{
     height: 4rem;
     width: 4rem;
+}
+
+.inicio_sesion{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 .buscador{
@@ -56,6 +81,7 @@ nav ul li{
 .principal{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .mona_lisa{
@@ -66,6 +92,7 @@ nav ul li{
 
 .texto_mona_lisa{
     text-align: center;
+
 }
 
 .precio{
