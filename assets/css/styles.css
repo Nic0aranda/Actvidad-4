@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: cornsilk;
+    background-color: rgb(250, 194, 194);
 }
 
 /*navbar*/
@@ -73,7 +73,8 @@ nav ul li{
 }
 
 .precio{
-    background-color: aqua;
+    color: black;
+    background-color: rgb(139, 204, 218);
 }
 
 /* */
