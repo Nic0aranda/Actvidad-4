@@ -12,6 +12,12 @@
 .card{
     width: 18rem;
     margin: .3rem;
+    
+}
+
+.card a{
+    color:black;
+    text-decoration:none;
 }
 
 .card-body{
