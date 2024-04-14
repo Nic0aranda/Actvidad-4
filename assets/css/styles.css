@@ -87,17 +87,3 @@ nav ul li{
 .precio{
     background-color: aqua;
 }
-
-.container_cata{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.cards_catalogo{
-    margin: 1rem 3rem;
-}
-
-.card{
-    width: 18rem;
-}
