@@ -6,10 +6,12 @@
 
 .cards_catalogo{
     margin: 1rem 3rem;
+    justify-content: center;
 }
 
 .card{
     width: 18rem;
+    margin: .3rem;
 }
 
 .card-body{
