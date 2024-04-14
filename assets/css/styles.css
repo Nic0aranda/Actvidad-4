@@ -115,3 +115,20 @@ nav ul li{
     }
     
 }
+
+
+.carrucel_con{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carrucel{
+    
+}
+
+.carrucel-img{
+
+    width: 500px;
+    height: 500px;
+}
