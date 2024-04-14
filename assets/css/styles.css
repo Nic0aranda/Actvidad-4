@@ -104,6 +104,11 @@ nav ul li{
 /*carrusel*/
 
 .img-size-carrusel{
-    width: 400px!important;
-    height: 350px!important;
+    height: 48rem;
+}
+
+.titulo-carrusel{
+    color: white;
+    text-align: center;
+    margin: 20px;
 }
