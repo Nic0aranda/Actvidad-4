@@ -6,17 +6,14 @@ body{
     background-color: cornsilk;
 }
 
-@media (max-width: 576px) {
-    .lista-nav {
-        flex-direction: column;
-        align-items: center;
-    }
-    .logo {
-        margin-bottom: 10px;
-    }
-    .titulo-carrusel {
-        text-align: center;
-    }
+/*navbar*/
+.logo-icon{
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-justify{
+    justify-content: space-between;
 }
 
 .navbar{
@@ -45,10 +42,6 @@ nav ul li{
     margin: 0px 10px;
 }
 
-.logo{
-    height: 4rem;
-    width: 4rem;
-}
 
 .inicio_sesion{
     display: flex;
@@ -61,30 +54,14 @@ nav ul li{
     padding: 0rem .2rem ;
 }
 
-.titulo-carrusel{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-.carousel{
-    display: block;
-    align-items: center;
-    margin: 2rem 5rem;
-}
-
-.carousel-item{
-    width: 20rem;
-    height: 30rem;
-}
-
+/* mona lisa */
 .principal{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.mona_lisa{
+.img-principal{
     height: 30rem;
     width: 80rem;
     margin: 3rem;
@@ -99,15 +76,9 @@ nav ul li{
     background-color: aqua;
 }
 
-.logo-icon{
-    width: 60px;
-    height: 60px;
-}
+/* */
 
-.navbar-justify{
-    justify-content: space-between;
-}
-
+/*responsive*/
 @media (max-width: 992px){
 
     .buscador{
@@ -116,14 +87,29 @@ nav ul li{
     
 }
 
+@media (max-width: 576px) {
+    .lista-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+    .titulo-carrusel {
+        text-align: center;
+    }
+}
+
+/*carrusel*/
+.titulo-carrusel{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
 
 .carrucel_con{
     display: flex;
     justify-content: center;
-    
-}
-
-.carrucel{
     
 }
 
