@@ -50,6 +50,17 @@ nav ul li{
     width: 4rem;
 }
 
+.inicio_sesion{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.buscador{
+    display: flex;
+    padding: 0rem 5rem ;
+}
+
 .titulo-carrusel{
     display: flex;
     justify-content: center;
@@ -86,18 +97,4 @@ nav ul li{
 
 .precio{
     background-color: aqua;
-}
 
-.container_cata{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.cards_catalogo{
-    margin: 1rem 3rem;
-}
-
-.card{
-    width: 18rem;
-}

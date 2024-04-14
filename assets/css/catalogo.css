@@ -1,0 +1,28 @@
+.container_cata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards_catalogo{
+    margin: 1rem 3rem;
+    justify-content: center;
+}
+
+.card{
+    width: 18rem;
+    margin: .3rem;
+    
+}
+
+.card a{
+    color:black;
+    text-decoration:none;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
