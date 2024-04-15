@@ -21,6 +21,9 @@
 }
 
 .img-card{
-    width: 343px;
-    height: 200px;
+    max-width: 343px;
+    max-height: 200px;
+    margin:auto;
+    display: block;
 }
+
